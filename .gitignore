@@ -1,3 +1,4 @@
 keys.js
 node_module
 .DS_Store
+.env
