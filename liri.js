@@ -59,7 +59,7 @@ function liriRun(appCommand,userSearch){
 }
 
 function getSpotify(songName){
-    var spotify = new spotify(keys.spotify);
+    var spotify = new Spotify(keys.spotify);
 
     if(!songName){
         songName = "The Sign";
@@ -116,11 +116,12 @@ function getOMDB(movie){
 
     axios.request(movieQueryUrl).then(
         function(response){
+            // console.log(response);
             console.log("=========================================");
             console.log("* Title: " + response.data.Title  +"\r\n");
             console.log("* Year Realesed: " + response.data.Year  +"\r\n");
             console.log("* IMDB Rating: " + response.data.imdbRating  +"\r\n");
-            console.log("* Rotten Tomatos Rating: " + response.data.Ratings[1].Value  +"\r\n");
+            // console.log("* Rotten Tomatos Rating: " + response.data.Ratings[1].Value  +"\r\n");
             console.log("* Country Where Produced: " + response.data.Country  +"\r\n");
             console.log("* Language: " + response.data.Language  +"\r\n");
             console.log("* Plot: " + response.data.Plot  +"\r\n");
@@ -128,7 +129,8 @@ function getOMDB(movie){
 
             var logMovie = "=====Begin Movie Log Entry =====" + "\nMovie Title: " + response.data.Title + 
                     "Year Realesed: " + response.data.Year  + "\n" + "IMDB Rating: "+ response.data.imdbRating + "\n" 
-                    "Rotten Tomatos Rating: "+ response.data.Ratings[1].Value + "\n" + "Country Where Produced: "+ response.data.Country + "\n" +
+                    // "Rotten Tomatos Rating: "+ response.data.Ratings[1].Value + "\n" 
+                    + "Country Where Produced: "+ response.data.Country + "\n" +
                     "Language: "+ response.data.Language + "\n" + "Plot:  "+ response.data.Plot + "\n" +
                     "Actors: "+ response.data.Actors + "\n";
 
