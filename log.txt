@@ -24,3 +24,36 @@ Country Where Produced: USA
 Language: English
 Plot:  A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.
 Actors: Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow
+=====Begin Spotify Log Entry =====
+Artist: Harry StylesSong Name: Sign of the Times
+Album: Harry Styles
+=====Begin Spotify Log Entry =====
+Artist: Backstreet BoysSong Name: I Want It That Way
+Album: The Hits--Chapter One
+=====Begin concert Log Entry =====
+Name of the Musician: BackStreet BoysName of Venue: Capital One Arena
+Venue Location: Washington
+=====Begin Movie Log Entry =====
+Movie Title: undefinedYear Realesed: undefined
+IMDB Rating: undefined
+Country Where Produced: undefined
+Language: undefined
+Plot:  undefined
+Actors: undefined
+=====Begin Movie Log Entry =====
+Movie Title: undefinedYear Realesed: undefined
+IMDB Rating: undefined
+Country Where Produced: undefined
+Language: undefined
+Plot:  undefined
+Actors: undefined
+=====Begin Movie Log Entry =====
+Movie Title: ShrekYear Realesed: 2001
+IMDB Rating: 7.9
+Country Where Produced: USA
+Language: English
+Plot:  A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.
+Actors: Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow
+=====Begin Spotify Log Entry =====
+Artist: Backstreet BoysSong Name: I Want It That Way
+Album: The Hits--Chapter One
